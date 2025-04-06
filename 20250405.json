@@ -1,0 +1,29 @@
+{
+  "spider": "https://example.com/spider.jar",
+  "sites": [
+    {
+      "key": "site1",
+      "name": "示例站点1",
+      "type": 3,
+      "api": "https://example.com/api.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "site2",
+      "name": "示例站点2",
+      "type": 3,
+      "api": "https://example.com/api2.php",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析接口1",
+      "url": "https://example.com/parse1"
+    }
+  ]
+}
